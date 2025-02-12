@@ -1,0 +1,8 @@
+disp(' ')
+disp('Blocky-Occam')
+disp('----------------------------------------------------')
+fprintf('RMS: %g\n', RamBO_Out.BO_RMS(end))
+fprintf(['Regularization parameter ', char(956), ' = %g\n'],RamBO_Out.BO_muAll(end))
+fprintf('Iterations: %g\n', length(RamBO_Out.BO_muAll))
+disp('----------------------------------------------------')
+disp(' ')

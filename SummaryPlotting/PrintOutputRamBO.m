@@ -1,0 +1,7 @@
+disp(' ')
+disp('RamBO')
+disp('----------------------------------------------------')
+fprintf('Number of failed optimizations: %g\n', RamBOConfig.nos - RamBO_Out.RamBO_nos)
+fprintf('Samples obtained: %g\n', RamBO_Out.RamBO_nos)
+disp('----------------------------------------------------')
+disp(' ')

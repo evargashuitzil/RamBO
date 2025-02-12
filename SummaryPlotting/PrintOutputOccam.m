@@ -1,0 +1,8 @@
+disp(' ')
+disp('Occam')
+disp('----------------------------------------------------')
+fprintf('RMS: %g\n', Occam_Out.RMS(end))
+fprintf(['Regularization parameter ', char(956), ' = %g\n'],Occam_Out.muAll(end))
+fprintf('Iterations: %g\n', length(Occam_Out.muAll))
+disp('----------------------------------------------------')
+disp(' ')
